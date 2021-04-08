@@ -1,0 +1,20 @@
+target: DemoProject1
+
+type: executable
+
+sources: {
+    main.c
+    oledc.c
+}
+
+headers: {
+    oledc.h
+    oledc_font.h
+    oledc_image.h
+}
+
+depends: {
+    MikroSDK.Board
+    MikroSDK.Driver
+    MikroC.Core
+}
